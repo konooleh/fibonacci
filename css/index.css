@@ -1,0 +1,60 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/fib.jpg");
+    background-size:cover;
+}
+
+header .logo a {
+    font-family: 'Lobster', cursive;
+	font-size:40px;
+	color:white;
+	text-decoration:none;
+	line-height:70px;
+	padding:10px;
+}
+
+box {
+	background:#FCFFCC;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    padding: 25px;
+}
+
+#f-n {
+    border: 0;
+    background-color: white;
+}
+
+#calc {
+	font-family: 'Russo One', sans-serif;
+	font-size:25px;
+	background:#479AD6;
+	color:#fff;
+	text-align: center;
+	text-decoration:none;
+	border: 1px transparent;
+	padding: 5px 10px;
+	flex-grow:1;
+	margin:2px;
+}
+
+#calc:hover {
+	background:#70C4FF;
+}
+
+#text-area {
+    border: 0;
+    background-color: white;
+}

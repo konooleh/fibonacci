@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Lato:300,400|Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Fibonacci Number</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="#">Fibonacci Number</a>
+    </div>
+  </header>
+  <div class="box">
+    <p>The <b>Fibonacci numbers</b> are the numbers in the following integer sequence, called the <b>Fibonacci sequence</b>, and characterized by the fact that every number after the first two is the sum of the two preceding ones.</p>
+    <form name="form">
+      <p>F<sub>n</sub> = <input type="number" name="n" id="f-n">
+      <br>
+      <br>
+      <input type="button" value="Calculate" onClick="show(form.n.value);" id="calc">
+      <br>
+      <br>
+      Fibonacci sequence:
+      <br>
+      <textarea style="width:300px" rows="5" name="s" id="text-area"></textarea></p>
+    </form>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
